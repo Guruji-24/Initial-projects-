@@ -6,7 +6,9 @@ int dn() {
 	}
 int main()
 {
+	srand(time(NULL));
 	for(int i=0;i<10;i++){
     printf("The outcome is:%d\n",dn());}
     return 0;
 }
+
